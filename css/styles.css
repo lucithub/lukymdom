@@ -47,8 +47,8 @@ body {
   
   #add-thing {
     display: flex;
-    flex-direction: column;
-    grid-template-columns: 90% 10%;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   #thing-box {
@@ -56,18 +56,21 @@ body {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 95%;
   }
   
   #add-thing-btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
+    width: 5%;
+    padding: 5px 15px;
     border-radius: 5px;
+    border: none;
     cursor: pointer;
+    background-color: rgb(192, 219, 107);
   }  
-  /* Pagina 2 */
+  /* Pagina 2
   .page-2 {
     background-color: #3498db;
     color: #fff;
   }
+  */
   

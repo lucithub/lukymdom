@@ -14,3 +14,24 @@ gsap.utils.toArray(".page").forEach((page, i) => {
     },
   });
 });
+
+function addOption(){
+  let option = document.getElementById("thing-box").value;
+  // Crear un nuevo div para el "cuadrito"
+  let newDiv = document.createElement("div");
+    
+  // Añadir el texto al div
+  newDiv.textContent = option;
+  
+  // Dar estilo al div (opcional)
+  newDiv.style.padding = "10px";
+  newDiv.style.margin = "5px";
+  newDiv.style.backgroundColor = "#f0f0f0";
+  newDiv.style.border = "1px solid #ddd";
+  
+  // Añadir el div al documento
+  document.getElementById("add-thing").after(newDiv);
+  
+  // Limpiar el input
+  document.getElementById("thing-box").value = "";
+}
