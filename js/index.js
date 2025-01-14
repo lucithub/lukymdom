@@ -30,7 +30,7 @@ function addOption(){
   newDiv.style.padding = "10px";
   newDiv.style.margin = "5px";
   newDiv.style.backgroundColor = "#f0f0f0";
-  newDiv.style.border = "1px solid #ddd";
+  newDiv.style.borderRadius = "5px";
   newDiv.style.backgroundColor = colores[Math.floor(Math.random() * colores.length)];
   
   // Añadir el div al documento
