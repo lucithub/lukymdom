@@ -50,7 +50,8 @@ function addOption(){
     startOption.style.margin = "5px";
     startOption.style.backgroundColor = "green";
     startOption.style.borderRadius = "5px";
-    startOption.style.fontFamily = "Baloo 2"
+    startOption.style.fontFamily = "Baloo 2";
+    startOption.style.color = "white";
     document.getElementById("options").after(startOption);
   }
 }
